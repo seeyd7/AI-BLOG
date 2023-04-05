@@ -1,0 +1,156 @@
+<html lang="pl"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Tytuł Strony">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Opis strony">
+    <meta property="og:image" content="Zdjęcie strony">
+    <meta property="og:url" content="Adres strony">
+    <title>AI BLOG - Blog pisany przez sztuczną inteligencję</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" id="google-fonts-css" href="https://fonts.googleapis.com/css?family=Roboto%7CAlata%7CRoboto+Condensed%7COswald%7CRoboto+Slab&amp;display=swap&amp;ver=5.5" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&amp;family=Italianno&amp;family=Montserrat&amp;family=Oswald&amp;display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <!-- MyStyles -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Menu -->
+    <nav id="menu" class="grid-item" style="height: 10vh; background-color: rgba(0, 0, 0, 0.5);">
+        <a href="" class="logo">
+          <img src="https://ai-blog.pl/wp-content/uploads/2023/03/ai-blog-logo2.png" height="60" width="60">
+        </a>
+        <button class="menu-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="navbar-menu">
+            <a onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" href="#home">Strona główna</a>
+            <a onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" href="#main">Blog</a>
+            <a onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" href="#contact">Kontakt</a>
+        </div>
+    </nav>
+    <!-- Menu -->
+    <!-- Header -->
+    <header class="grid-item" id="home">
+      <h1>AI BLOG</h1>
+      <h2></h2>
+      <a href="#main"><i style="animation: bounce 1.5s infinite;" class="fas fa-chevron-double-down fa-1.5x"></i></a>
+    </header>
+    <!-- Header -->
+    <!-- About -->
+    <section class="about">
+      <h2 class="section-title">Co na blogu?</h2>
+      <div class="about-content">
+        <div class="about-content-card">
+          <img src="http://ai-blog.pl/wp-content/uploads/2023/03/ai-blog-reviews-150x150.png">
+          <h3>Recenzje</h3>
+          <p>Chcesz dowiedzieć się co sztuczna inteligencja myśli na temat rzeczy którą aktualnie planujesz kupić? Idealnie trafiłeś, tutaj będą pojawiać się recenzje, głównie ze świata technologii komputerowej!</p>
+        </div>
+        <div class="about-content-card">
+          <img src="http://ai-blog.pl/wp-content/uploads/2023/03/ai-blog-travel-150x150.png">
+          <h3>Podróże i turystyka</h3>
+          <p>Planujesz wyjazd i nie wiesz jak się do niego przygotować? Możliwe, że trafiłeś w dziesiątkę! Poszukaj na naszym blogu miejsca w które się wybierasz, przy odrobinie Twojego szczęścia, będziemy mieli już dla niego wskazówki przygotowania się do wyjazdu!</p>
+        </div>
+        <div class="about-content-card">
+          <img src="http://ai-blog.pl/wp-content/uploads/2023/03/ai-blog-food-1-150x150.png">
+          <h3>Kulinaria</h3>
+          <p>Jesteś ciekaw jaki przepis przygotowała dla Ciebie sztuczna inteligencja? Nie czekaj, sprawdź i przekonaj się sam czy komputery też potrafią gotować pyszne potrawy!</p>
+        </div>
+      </div>
+      <div class="about-warning">
+        <div class="about-warning-content">
+            <h2>Uwaga!</h2>
+            <p>Pamiętaj, że w tekstach mogą się pojawić nieprawdziwe informacje które SI napisze tak abyś myślał/a, że to prawda. Weryfikuj niepewne informacje. Miłej zabawy!</p>
+        </div>
+        <div class="about-warning-content-image">
+            <img src="img/ai-blog-warning.png">
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <!-- Main -->
+    <main id="main" class="grid-item dark">
+      <h2 class="section-title">Blog</h2>
+      <div class="articles">
+        <!-- Article 1 -->
+        <div class="article-holder">
+          <div class="article-main" style="background: url(img/article1.jpg) no-repeat center;">
+            <div class="slider">
+              <h2>Title</h2>
+              <p style="z-index: -1; opacity: 0; transition: all 0.2s ease 0s;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rerum autem quod sed architecto aliquid error ab ipsum culpa dicta assumenda vel eligendi fuga, vero accusamus magni omnis asperiores. Laborum est quam, expedita placeat quaerat ipsa tempora ad eaque, culpa voluptas tenetur harum.</p>
+              <a class="article-btn">Zobacz więcej</a>
+              <span class="square"><i class="fas fa-chevron-double-up fa-1.5x"></i></span>
+            </div>
+          </div>
+        </div>
+        <!-- Article 2 -->
+        <div class="article-holder">
+          <div class="article-main" style="background: url(https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg) no-repeat center;">
+            <div class="slider">
+              <h2>Title</h2>
+              <p style="z-index: -1; opacity: 0; transition: all 0.2s ease 0s;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eius ipsum ipsa cumque saepe quia.</p>
+              <a class="article-btn">Zobacz więcej</a>
+              <span class="square"><i class="fas fa-chevron-double-up fa-1.5x"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="newsletter-info">
+        <h2>Wpisz swój adres E-Mail!</h2>
+        <p>Zapiszemy Cię do newslettera :)</p>
+      </div>
+      <div class="newsletter-input">
+        <input type="email" placeholder="E-Mail">
+        <i class="fa-solid fa-envelope fa-2x"></i>
+      </div>
+    </section>
+    <!-- Newsletter -->
+    <!-- Kontakt -->
+    <aside class="grid-item" id="contact">
+      <h2 class="section-title">Kontakt</h2>
+      <!-- Kontakt info -->
+      <div class="contact-info">
+        <div class="card">
+          <i class="card-icon far fa-envelope"></i>
+          <p>sewendev@gmail.com</p>
+        </div>
+      </div>
+      <!-- Kontakt formularz -->
+      <form action="#" class="contact-form">
+        <input type="text" class="nameZone" placeholder="Imię">
+        <input type="email" class="emailZone" placeholder="Twój E-mail">
+        <input type="text" class="subjectZone" placeholder="Temat">
+        <textarea class="messageZone" placeholder="Wiadomość"></textarea>
+        <input type="submit" value="Wyślij" class="btn">
+      </form>
+    </aside>
+    <!-- Stopka -->
+    <footer>
+      <div class="top-footer">
+          <a href=""><i class="fab fa-facebook-f fa-2x"></i></a>
+          <a href=""><i class="fa-brands fa-tiktok fa-2x"></i></a>
+      </div>
+      <hr>
+      <div class="bottom-footer">
+          Created by <a target="_blank" href="https://sewen-site.vercel.app/"><b><span style="color: #FFD700">sewen</span></b></a> © All rights reserved.
+      </div>
+  </footer>
+    <!-- Main -->
+    <!-- GoTop -->
+    <button id="go2Top" class="fas fa-arrow-up goTop" style="cursor: default; opacity: 0; line-height: 40px;"></button>
+    <!-- GoTop -->
+    <!-- Menu -->
+    <!-- Scripts -->
+    <script src="scripts/bootstrap.min.js"></script>
+    <!-- MyScripts -->
+    <script src="scripts/scripts.js"></script>
+
+</body></html>
